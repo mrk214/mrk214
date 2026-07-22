@@ -4,7 +4,7 @@ This GitHub profile hosts a collection of public **[Bible datasets in JSON forma
 
 The data was generated from publicly available HTML pages and normalized into a **[common JSON structure](https://github.com/mrk214/reading-json-files/blob/main/src/types.ts)** to make it easier to consume programmatically while preserving as much information from the original source as possible.
 
-## 📚 Source Datasets
+## 🧑‍💻 Source Datasets
 
 These repositories contain the complete datasets for each language:
 
@@ -18,11 +18,11 @@ In addition to the normalized JSON data, these repositories also preserve the or
 
 These repositories should be considered the **source of truth** for the project.
 
-## 📦 Production Snapshots
+## 🚀 Production Snapshots
 
 Repository:
 
-- **[snapshots](https://github.com/mrk214/snapshots)**
+- 🚀 **[snapshots](https://github.com/mrk214/snapshots)**
 
 This repository contains production-ready copies of every dataset.
 
@@ -30,11 +30,11 @@ The only difference from the source datasets is that the `chapter_html` field ha
 
 If you're building an application, this is probably the repository you want to use.
 
-## 💡 Usage Example
+## 📚 Usage Example
 
 Repository:
 
-- **[reading-json-files](https://github.com/mrk214/reading-json-files)**
+- 📚 **[reading-json-files](https://github.com/mrk214/reading-json-files)**
 
 This repository contains a practical example showing how to read and use the JSON files.
 

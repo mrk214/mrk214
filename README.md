@@ -1,22 +1,8 @@
 # Bible JSON Datasets
 
-This GitHub profile hosts a collection of public **[Bible datasets in JSON format](https://mrk214.github.io/snapshots/data.json)**, covering multiple languages and Bible versions.
+This GitHub profile contains a collection of public **[Bible datasets in JSON format](https://mrk214.github.io/snapshots/data.json)**, covering multiple languages and Bible versions. Each dataset represents a single Bible version in a single language.
 
-The data was generated from publicly available HTML pages and normalized into a **[common JSON structure](https://github.com/mrk214/reading-json-files/blob/main/src/types.ts)** to make it easier to consume programmatically while preserving as much information from the original source as possible.
-
-## 🧑‍💻 Source Datasets
-
-These repositories contain the complete datasets for each language:
-
-- 🇬🇧 **[bible-data-en-eng](https://github.com/mrk214/bible-data-en-eng)** (`English`)
-- 🇪🇸 **[bible-data-es-spa](https://github.com/mrk214/bible-data-es-spa)** (`Spanish`)
-- 🇵🇹 **[bible-data-pt-por](https://github.com/mrk214/bible-data-pt-por)** (`Portuguese`)
-
-Each repository contains one or more Bible versions sharing the same JSON schema.
-
-In addition to the normalized JSON data, these repositories also preserve the original HTML for every chapter (`chapter_html`). This allows anyone to audit the source, inspect the original markup, or regenerate the dataset if needed.
-
-These repositories should be considered the **source of truth** for the project.
+These datasets were generated from publicly available HTML pages and normalized into a **[common JSON structure](https://github.com/mrk214/reading-json-files/blob/main/src/types.ts)** to make it easier to consume programmatically while preserving as much information from the original source as possible.
 
 ## 🚀 Production Snapshots
 
@@ -24,11 +10,21 @@ Repository:
 
 - 🚀 **[snapshots](https://github.com/mrk214/snapshots)**
 
-This repository contains production-ready copies of every dataset.
+This repository contains _production-ready snapshots_ for every available language dataset.
 
-The only difference from the source datasets is that the `chapter_html` field has been removed, making the files significantly smaller and more suitable for applications that only need the normalized JSON data.
+Unlike the **source repositories**, the `chapter_html` field has been removed from every JSON file, and all JSON files are minified. This makes them significantly smaller and better suited for applications that only need the normalized JSON data.
 
 If you're building an application, this is probably the repository you want to use.
+
+## 🧑‍💻 Source Repositories
+
+These repositories contain the complete source datasets for each language:
+
+- 🧑‍💻 **[bible-data-en-eng](https://github.com/mrk214/bible-data-en-eng)** (`English` 🇬🇧)
+- 🧑‍💻 **[bible-data-es-spa](https://github.com/mrk214/bible-data-es-spa)** (`Spanish` 🇪🇸)
+- 🧑‍💻 **[bible-data-pt-por](https://github.com/mrk214/bible-data-pt-por)** (`Portuguese` 🇵🇹)
+
+Unlike the **production snapshots**, these repositories preserve the original `chapter_html` field for every chapter, and the JSON files remain pretty-printed with indentation for easy human reading. They are intended for development, auditing, inspecting the original HTML, or regenerating the production snapshots.
 
 ## 📚 Usage Example
 
@@ -50,7 +46,7 @@ Since every dataset follows the same JSON schema, the examples apply to all lang
 | ------------------------------- | -------------------- |
 | Build an application            | `snapshots`          |
 | Access the original source HTML | `bible-data-*`       |
-| Learn the JSON structure        | `reading-json-files` |
+| Understand the JSON structure   | `reading-json-files` |
 
 ### Notes
 

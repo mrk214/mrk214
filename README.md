@@ -1,8 +1,8 @@
 # Bible JSON Datasets
 
-This GitHub profile contains a collection of public **[Bible datasets in JSON format](https://mrk214.github.io/snapshots/data.json)**, covering multiple languages and Bible versions. Each dataset represents a single Bible version in a single language.
+This GitHub profile contains a collection of `public Bible datasets in JSON format, covering multiple languages and Bible versions`. Each dataset represents a single Bible version in a single language.
 
-These datasets were generated from publicly available HTML pages and normalized into a **[common JSON structure](https://github.com/mrk214/reading-json-files/blob/main/src/types.ts)** to make it easier to consume programmatically while preserving as much information from the original source as possible.
+These datasets were generated from publicly available HTML pages and normalized into a **[common JSON structure](https://github.com/mrk214/snapshots/blob/main/types.ts)** to make it easier to consume programmatically while preserving as much information from the original source as possible.
 
 ## 🚀 Production Snapshots
 

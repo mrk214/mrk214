@@ -27,8 +27,7 @@ Unlike the **production snapshots**, these repositories preserve the original `c
 
 ## 📚 Usage Example
 
-Repository:
-
+- 🚀 **[Live demo](https://mrk214.github.io/reading-json-files/)**
 - 📚 **[reading-json-files](https://github.com/mrk214/reading-json-files)**
 
 This repository contains a practical example showing how to read and use the JSON files.

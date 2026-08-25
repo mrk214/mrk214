@@ -27,7 +27,7 @@ Unlike the **production snapshots**, these repositories preserve the original `c
 
 ## 📚 Usage Example
 
-- 🚀 **[Live demo](https://mrk214.github.io/reading-json-files/)**
+- 🚀 **[Live Demo](https://mrk214.github.io/reading-json-files/)**
 - 📚 **[reading-json-files](https://github.com/mrk214/reading-json-files)**
 
 This repository contains a practical example showing how to read and use the JSON files.
@@ -48,6 +48,6 @@ Since every dataset follows the same JSON schema, the examples apply to all lang
 
 ### Notes
 
-- All datasets share a common JSON schema across languages and Bible versions.
+- All datasets share a common JSON schema across languages and Bible versions, except for `snapshots-by-chapter`, which has some structural differences and [follows its own JSON schema](https://github.com/mrk214/snapshots-by-chapter#-typescript-types).
 - Differences in formatting (paragraphs, headings, verse grouping, poetry, etc.) reflect the original source whenever possible and are not artificially standardized.
 - The scraper used to generate these datasets is private. The published repositories contain the generated data only.

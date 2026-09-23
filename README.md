@@ -11,7 +11,7 @@ These repositories contain _production-ready snapshots_ for every available lang
 - 🚀 **[snapshots](https://github.com/mrk214/snapshots)** (`One JSON file per Bible version`)
 - 🚀 **[snapshots-by-chapter](https://github.com/mrk214/snapshots-by-chapter)** (`One JSON file per chapter`)
 
-Unlike the **source repositories**, the `chapter_html` field has been removed from every JSON file, and all JSON files are minified. This makes them significantly smaller and better suited for applications that only need the normalized JSON data.
+Unlike the **source repositories**, the `html` field has been removed from every **Chapter** in every JSON file, and all JSON files are minified. This makes them significantly smaller and better suited for applications that only need the normalized JSON data.
 
 If you're building an application, these are probably the repositories you want to use.
 
@@ -23,7 +23,7 @@ These repositories contain the complete source datasets for each language:
 - 🧑‍💻 **[bible-data-es-spa](https://github.com/mrk214/bible-data-es-spa)** (`Spanish` 🇪🇸)
 - 🧑‍💻 **[bible-data-pt-por](https://github.com/mrk214/bible-data-pt-por)** (`Portuguese` 🇵🇹)
 
-Unlike the **production snapshots**, these repositories preserve the original `chapter_html` field for every chapter, and the JSON files remain pretty-printed with indentation for easy human reading. They are intended for development, auditing, inspecting the original HTML, and regenerating the production snapshots.
+Unlike the **production snapshots**, these repositories preserve the original `html` field for every **Chapter**, and the JSON files remain pretty-printed with indentation for easy human reading. They are intended for development, auditing, inspecting the original HTML, and regenerating the production snapshots.
 
 ## 📚 Usage Example
 
